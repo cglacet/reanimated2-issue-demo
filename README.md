@@ -1,23 +1,11 @@
 # reanimated-2-playground
 
-This repo contains a fresh React Native project with preinstalled Reanimated V2
-
-Checkout using the following command to start playing with the new Reanimated API:
-
+Clone: 
 ```bash
-git clone https://github.com/software-mansion-labs/reanimated-2-playground.git
+git clone https://github.com/cglacet/reanimated2-issue-demo.git test-reanimated-issue
 ```
 
-Don't forget to install dependencies:
+Run: 
 ```bash
-cd reanimated-2-playground && yarn
+cd test-reanimated-issue && rm -rf node_modules yarn.lock && yarn install && cd android && ./gradlew clean && cd - && yarn android
 ```
-
-If you want to install app on the iOS simulator:
-```bash
-npx pod-install
-```
-
-Then run the app using Xcode or `react-native` CLI.
-
-[Check Reanimated 2 documentation here.](https://docs.swmansion.com/react-native-reanimated/)
