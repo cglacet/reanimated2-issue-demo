@@ -1,4 +1,4 @@
-# reanimated-2-playground
+# reanimated2 Issue
 
 Clone: 
 ```bash
